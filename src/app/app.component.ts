@@ -34,6 +34,7 @@ export class AppComponent {
     });
   }
 
+
   // Función para actualizar los datos de un usuario
   // Se activa cuando el botón 'actualizarUsuario' es presionado
   // async actualizarUsuario() {
@@ -52,4 +53,20 @@ export class AppComponent {
   //     console.error('Error al actualizar el usuario:', error);
   //   }
   // }
+
+  // Función para eliminar un usuario
+  // Se activa cuando el botón 'eliminarUsuario' es presionado
+  // async eliminarUsuario() {
+  //   try {
+  //     const usuarioId = 1; // ID del usuario a eliminar
+  //     console.log('Eliminando usuario con ID:', usuarioId);
+  //     // Llamada a un servicio para eliminar el usuario
+  //     await this.usuarioService.eliminarUsuario(usuarioId);
+  //     alert('Usuario eliminado correctamente');
+  //   } catch (error) {
+  //     console.error('Error al eliminar al usuario:', error);
+  //   }
+  // }
+
+ 
 }
