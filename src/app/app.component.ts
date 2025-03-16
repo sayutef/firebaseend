@@ -34,6 +34,26 @@ export class AppComponent {
     });
   }
 
+
+  // Función para actualizar los datos de un usuario
+  // Se activa cuando el botón 'actualizarUsuario' es presionado
+  // async actualizarUsuario() {
+  //   try {
+  //     const usuarioActualizado = {
+  //       id: 1,
+  //       nombre: 'Juan Pérez',
+  //       edad: 31,
+  //       email: 'juanperez@correo.com'
+  //     };
+  //     console.log('Actualizando usuario:', usuarioActualizado);
+  //     // Llamada a un servicio para actualizar el usuario
+  //     await this.usuarioService.actualizarUsuario(usuarioActualizado);
+  //     alert('Usuario actualizado correctamente');
+  //   } catch (error) {
+  //     console.error('Error al actualizar el usuario:', error);
+  //   }
+  // }
+
   // Función para eliminar un usuario
   // Se activa cuando el botón 'eliminarUsuario' es presionado
   // async eliminarUsuario() {
@@ -48,5 +68,5 @@ export class AppComponent {
   //   }
   // }
 
-  
+ 
 }
